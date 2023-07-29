@@ -2,9 +2,9 @@ Steps to take:
 
 <!-- 1. Set up HTML & CSS with dummy content (check they are linked) -->
 
-2. write up HTML for the main content areas (sidebar, header, main content)
+<!-- 2. write up HTML for the main content areas (sidebar, header, main content) -->
 
-3. set up GRID so basic layout is setup
+<!-- 3. set up GRID so basic layout is setup -->
 
 4. filler content and internal content area layout
     4a. Sidebar
