@@ -17,3 +17,6 @@ Steps to take:
         colour palette
         theme
         images to used
+
+6. Things to do
+    Sidebar/navbar should be hyperlinks <a>
