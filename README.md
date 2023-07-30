@@ -17,6 +17,9 @@ Steps to take:
 5. Gather assets and style once layout is complete
     Things to consider for 5:
         colour palette
+            Sidebar: #A1CCD1
+            Card highlight: #E9B384
+            Main Bg: #F4F2DE
         theme
         images to used
 

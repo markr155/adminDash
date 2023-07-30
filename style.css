@@ -1,6 +1,11 @@
-div {
-    border: 2px black solid;
+/* Colours */
+:root {
+    --sidebar: #A1CCD1;
+    --mainBG: #F4F2DE;
+    --textBGColour: #FFFFFF;
+    --cardHighlight: #E9B384;
 }
+
 
 img {
     border: 2px blue solid;
@@ -79,7 +84,8 @@ input {
 .sidebar {
     grid-area: 1 / 1 / 3 / 2;
     display: grid;
-    grid-template-rows: 1fr 3fr 3fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    background-color: var(--sidebar);
 }
 
 .title {
@@ -96,6 +102,8 @@ input {
     grid-template: 1fr 1fr / 2.5fr 1fr;
     gap: 8px;
     padding: 5px;
+    padding-bottom: 10vh;
+    background: var(--mainBG);
 }
 
 .projects {
@@ -103,7 +111,10 @@ input {
     display: grid;
     gap: 8px;
     grid-template: 0.1fr 1fr 1fr 1fr / 1fr 1fr;
+}
 
+.projects div {
+    background-color: var(--textBGColour);
 }
 
 h1 {
