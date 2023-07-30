@@ -7,10 +7,12 @@ Steps to take:
 <!-- 3. set up GRID so basic layout is setup -->
 
 4. filler content and internal content area layout
-    4a. Sidebar 5
-    4b. Header
+    <!-- 4a. Sidebar 5 -->
+    <!-- 4b. Header -->
     4c. Main
+    - exercise card areas left
     ensure to include images and text to get lay out correct
+
 
 5. Gather assets and style once layout is complete
     Things to consider for 5:
