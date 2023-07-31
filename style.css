@@ -79,6 +79,7 @@ input {
     max-width: 100px;
     line-height: 0px;
     padding: 0px;
+    background-color: var(--sidebar);
 }
 
 .sidebar {
@@ -114,6 +115,14 @@ input {
 }
 
 .projects div {
+    background-color: var(--textBGColour);
+}
+
+.jsArea div {
+    background-color: var(--textBGColour);
+}
+
+.cssArea div {
     background-color: var(--textBGColour);
 }
 
