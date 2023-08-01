@@ -11,13 +11,11 @@ img {
     border: 2px blue solid;
 }
 
-li {
-    list-style: none;
-}
 
 body {
     display: grid;
     grid-template: 1fr 5fr / 1fr 4fr;
+    margin: 0;
 }
 
 .header {
@@ -87,14 +85,63 @@ input {
     display: grid;
     grid-template-rows: 1fr 3fr 3fr 3fr;
     background-color: var(--sidebar);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
 }
 
-.title {
-    text-align: center;
+.sidebar ul {
+    max-width: 150px;
+    margin-left: 15px;
 }
 
-.sidebar li {
-    margin: 8px;
+li::marker {
+    font-size: 4rem;
+}
+
+#dashboard {
+    list-style: url("./imgs/dashboard.svg");
+}
+
+#dashboard::marker {
+    font-size: 8rem;
+}
+
+#home {
+    list-style: url("./imgs/home.svg");
+}
+
+#profile {
+    list-style: url("./imgs/profile.svg");
+}
+
+#messages {
+    list-style: url("./imgs/messages.svg");
+}
+
+#history {
+    list-style: url("./imgs/history.svg");
+}
+
+#tasks {
+    list-style: url("./imgs/tasks.svg");
+}
+
+#communities {
+    list-style: url("./imgs/communities.svg");
+}
+
+#settings {
+    list-style: url("./imgs/settings.svg");
+}
+
+#support {
+    list-style: url("./imgs/support.svg");
+}
+
+#privacy {
+    list-style: url("./imgs/privacy.svg");
 }
 
 .main {
