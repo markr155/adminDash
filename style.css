@@ -1,7 +1,9 @@
 /* Colours */
 :root {
     --sidebar: #A1CCD1;
-    --mainBG: #F4F2DE;
+    --sidebarText: #000000;
+    --mainBG: #eeeeee;
+    --headerBG: #ffffff;
     --textBGColour: #FFFFFF;
     --cardHighlight: #E9B384;
 }
@@ -17,6 +19,10 @@ body {
     display: grid;
     grid-template: 1fr 2fr / 2fr 1fr;
     text-align: center;
+    background-color: var(--headerBG);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+    padding: 15px;
 }
 
 .searchBar {
@@ -83,24 +89,40 @@ input {
     font-size: 1.5rem;
 }
 
+a {
+    text-decoration: none; /* Remove the default underline */
+    color: var(--sidebarText); /* Set the default link color */
+    transition: all 0.3s ease; /* Add a smooth transition effect for a subtle animation */
+  }
+  
+  a:hover {
+    color: var(--cardHighlight); /* Change the link color on hover */
+    font-size: 1.1em; /* Increase the font size on hover */
+    border-radius: 3px; /* Add rounded corners on hover */
+  }
+
+
+
 li {
     list-style-type: none;
+    margin: 4px;
 }
-/* 
-li img {
-    width: 1em;
-} */
 
-/* #dashboard img {
-    width: 2em;
-} */
+li img {
+    width: 10%;
+
+}
+
+#dashboard img {
+    width: 3em;
+}
 
 ul {
     display: flex;
     flex-flow: column nowrap;
 }
 
-img {
+.header img {
     border: 2px blue solid;
 }
 
@@ -108,8 +130,8 @@ img {
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
     grid-template: 1fr 1fr / 2.5fr 1fr;
-    gap: 8px;
-    padding: 5px;
+    gap: 15px;
+    padding: 15px;
     padding-bottom: 10vh;
     background: var(--mainBG);
 }
@@ -117,20 +139,46 @@ img {
 .projects {
     grid-area: 1 / 1 / 3 / 2;
     display: grid;
-    gap: 8px;
+    gap: 15px;
     grid-template: 0.1fr 1fr 1fr 1fr / 1fr 1fr;
 }
 
 .projects div {
     background-color: var(--textBGColour);
+    border-radius: 15px;
+    padding: 10%;
+    border-left: 10px solid var(--cardHighlight);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2)
 }
 
-.jsArea div {
+.jsBox {
     background-color: var(--textBGColour);
+    padding: 10%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
 }
 
-.cssArea div {
+.jsBox div {
+    border-bottom: 2px solid var(--sidebar);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.jsArea h1 {
+    margin-bottom: 30px;
+}
+
+.cssBox {
     background-color: var(--textBGColour);
+    padding: 10%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.cssBox div {
+    border-bottom: 2px solid var(--sidebar);
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 h1 {
@@ -140,4 +188,8 @@ h1 {
 
 h3 {
     font-size: 1rem;
+}
+
+button {
+    border-radius: 10px;
 }

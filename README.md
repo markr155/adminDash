@@ -6,10 +6,10 @@ Steps to take:
 
 <!-- 3. set up GRID so basic layout is setup -->
 
-4. filler content and internal content area layout
+<!-- 4. filler content and internal content area layout -->
     <!-- 4a. Sidebar 5 -->
     <!-- 4b. Header -->
-    4c. Main
+    <!-- 4c. Main -->
     - exercise card areas left
     ensure to include images and text to get lay out correct
 
@@ -22,6 +22,3 @@ Steps to take:
             Main Bg: #F4F2DE
         theme
         images to used
-
-6. Things to do
-    Sidebar/navbar should be hyperlinks <a>, icons via icon library
